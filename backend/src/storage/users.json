@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1756758858191",
+    "email": "test@example.com",
+    "password": "$2a$10$3bUXM.K5r7916QKyBLiofOuQ9e1rzu3IcChTqwX9I/NulTfOF4tyO",
+    "profile": {
+      "firstName": "Test",
+      "lastName": "User",
+      "age": 25,
+      "gender": "male"
+    },
+    "createdAt": "2025-09-01T20:34:18.191Z"
+  },
+  {
+    "id": "1756759313302",
+    "email": "test@example.com",
+    "password": "$2a$10$USScxzsjwXljHjZdWIOok.EO2QjLNgCI6G/GR20xshLC5c55zGvp2",
+    "profile": {
+      "firstName": "Test",
+      "lastName": "User",
+      "age": 25,
+      "gender": "male"
+    },
+    "createdAt": "2025-09-01T20:41:53.302Z"
+  },
+  {
+    "id": "1756759794868",
+    "email": "srivastavraju774@gmail.com",
+    "password": "$2a$10$TMWB.O6cMsW/PFliAvILSear3Qwj.umXunlrwiXIKT8nSX/wYe.76",
+    "profile": {
+      "username": "appy",
+      "firstName": "apoorv",
+      "lastName": "gupta",
+      "age": "19",
+      "gender": "male"
+    },
+    "createdAt": "2025-09-01T20:49:54.868Z"
+  },
+  {
+    "id": "1756827981958",
+    "email": "ag5098015@gmail.com",
+    "password": "$2a$10$ksnPJmIT6ZvEKTAOnpXB2Oy5oxKfBGOce3sRmyGzK/APWu2ZBUiyC",
+    "profile": {
+      "username": "appy",
+      "firstName": "Apoorv ",
+      "lastName": "Gupta",
+      "age": "19",
+      "gender": "male"
+    },
+    "createdAt": "2025-09-02T15:46:21.958Z"
+  }
+]
