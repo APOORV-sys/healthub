@@ -8,20 +8,11 @@ const Dashboard = () => {
   ];
 
   const healthMetrics = [
-    { 
-      id: 1, 
-      title: 'Heart Rate', 
-      value: '72 BPM', 
-      icon: '❤️', 
-      color: 'from-red-400 to-red-600',
-      bgColor: 'from-red-50 to-red-100',
-      change: '+2%'
-    },
-    { 
-      id: 2, 
-      title: 'Steps Today', 
-      value: '8,432', 
-      icon: '👟', 
+    {
+      id: 2,
+      title: 'Steps Today',
+      value: '8,432',
+      icon: '👟',
       color: 'from-blue-400 to-blue-600',
       bgColor: 'from-blue-50 to-blue-100',
       change: '+15%'
@@ -49,7 +40,7 @@ const Dashboard = () => {
   return (
     <div className="space-y-8">
       {/* Health Metrics Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {healthMetrics.map((metric, index) => (
           <div 
             key={metric.id} 

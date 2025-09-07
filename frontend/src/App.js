@@ -118,18 +118,18 @@ const AppContent = () => {
         {/* Main content */}
         <div className={`flex-1 min-h-screen flex flex-col transition-all duration-500 ease-out ${sidebarCollapsed ? 'lg:ml-20' : 'lg:ml-72'}`}>
           {/* Simple Header */}
-          <header className="bg-drab-dark-brown text-white border-b border-french-gray shadow-sm">
-            <div className="flex items-center justify-between h-16 px-4 sm:px-6 lg:px-8">
+          <header className="text-white border-b border-french-gray shadow-sm rounded-lg" style={{ backgroundColor: '#333333' }}>
+            <div className="flex items-center justify-between h-12 px-4 sm:px-6 lg:px-8">
               {/* Mobile Menu Button */}
               <button
                 onClick={() => setSidebarOpen(true)}
                 className="lg:hidden text-white hover:bg-french-gray/20 p-2 rounded-lg transition-colors"
               >
-                <span className="text-xl">☰</span>
+                <span className="text-xl">❤️</span>
               </button>
 
               {/* Logo and Title */}
-              <div className="flex-1 flex items-center justify-center lg:justify-start">
+              <div className="flex-1 flex items-center justify-center">
                 <div className="flex items-center space-x-3">
                   <div className="w-8 h-8 bg-tiffany-blue rounded-lg flex items-center justify-center">
                     <span className="text-drab-dark-brown font-bold text-sm">H</span>
